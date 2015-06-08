@@ -1,26 +1,23 @@
-# DRM Back to Top
+# ELR Back to Top
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-Click back to top button to scroll to the top of page
-Requires jQuery
+A jQuery component
 
-## Features:
+## ELR Back to Top
 
-The button fades in as the user scrolls toward the end of the page.
+### Dependencies:
 
-Smooth scrolling effect when the back to top button is clicked and the user is taken to the top of the current page.
++ jQuery
 
-Just add compiled drm-back-to-top.coffee to your pages and you're ready to go.
+### Features:
 
-## Initialize:
+### Config:
 
-    new DrmBackToTop(content, speed, scrollSpeed);
+### Example Usage:
 
-## Options:
+#### Sample html
 
-    new DrmBackToTop($('body'), 300, 900);
+###License
 
-+ content: content to monitor - default: $('body')
-+ speed: button fade in speed - default: 300
-+ scrollSpeed: speed to scroll back to the top of the page - default: 900
+ELR-Back to Top is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
