@@ -1,0 +1,33 @@
+{
+  "name": "elr-back-to-top",
+  "version": "1.0.0",
+  "homepage": "https://github.com/elr-utilities/elr-back-to-top",
+  "authors": [
+    "Elizabeth Rogers <beth@elizabeth-rogers.com>"
+  ],
+  "description": "adds a back to top button",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "ux",
+    "ui",
+    "jquery",
+    "back",
+    "to",
+    "top",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
