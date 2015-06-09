@@ -6,6 +6,7 @@
     "Elizabeth Rogers <beth@elizabeth-rogers.com>"
   ],
   "description": "adds a back to top button",
+  "main": "dist/elr-back-to-top.js",
   "moduleType": [
     "globals"
   ],
