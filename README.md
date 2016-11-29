@@ -1,5 +1,5 @@
-# ELR Accordion
+# ELR-Back-to-Top
 
 ###License
 
-ELR-Accordion is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+ELR-Back-to-Top is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

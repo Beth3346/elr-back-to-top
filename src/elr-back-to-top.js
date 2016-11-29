@@ -1,7 +1,11 @@
 // Adds a button for user to scroll to top immediately
 
 const $ = require('jquery');
-let elr = require('elr-utility-lib');
+
+import elrUtilities from 'elr-utility-lib';
+// let elr = require('elr-utility-lib');
+
+let elr = elrUtilities();
 
 const elrBackToTop = function() {
     // const self = {};
