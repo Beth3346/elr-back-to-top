@@ -1,26 +1,26 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 // Adds a button for user to scroll to top immediately
 
-(function($) {
-    window.elrBackToTop = function(params) {
-        var self = {};
-        var spec = params || {};
-        var scrollSpeed = spec.scrollSpeed || 900;
-        var $content = spec.content || $('body');
+var $ = require('jquery');
+var elr = require('elr-utility-lib');
 
-        if ( $content.length ) {
-            var $backToTop = elr.createElement('button', {
-                'class': 'back-to-top fa fa-caret-up'
-            }).appendTo('body').hide();
-            
-            $(window).on('scroll', function() {
-                elr.scrollToView($backToTop);
-            });
-            
-            $backToTop.on('click', function() {
-                elr.toTop($content, scrollSpeed);
-            });
-        }
+var elrBackToTop = function elrBackToTop() {
+    // const self = {};
+    var $backToTop = elr.createElement('button', {
+        'class': 'back-to-top fa fa-caret-up'
+    }).appendTo('body').hide();
 
-        return self;
-    };
-})(jQuery);
+    elr.scrollToView($backToTop);
+
+    $backToTop.on('click', function () {
+        elr.toTop($('body, html'), 900);
+    });
+
+    // return self;
+};
+
+exports.default = elrBackToTop;
