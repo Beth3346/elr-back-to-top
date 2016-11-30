@@ -1,6 +1,6 @@
 {
   "name": "elr-back-to-top",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "simple back to top button",
   "main": "dist/elr-back-to-top.js",
   "repository": {
