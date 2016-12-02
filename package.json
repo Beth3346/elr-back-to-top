@@ -1,14 +1,11 @@
 {
   "name": "elr-back-to-top",
-  "version": "1.0.5",
   "description": "simple back to top button",
-  "main": "dist/elr-back-to-top.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Beth3346/elr-back-to-top.git"
-  },
-  "scripts": {
-    "build": "build"
+  "version": "1.0.5",
+  "author": "Elizabeth Rogers",
+  "bugs": {
+    "url": "https://github.com/Beth3346/elr-back-to-top",
+    "email": "beth@elizabeth-rogers.com"
   },
   "dependencies": {
     "babel-runtime": "^6.0.0",
@@ -24,5 +21,18 @@
     "gulp-jshint": "^2.0.1",
     "gulp-sourcemaps": "^2.1.1",
     "jshint": "^2.9.3"
+  },
+  "homepage": "http://www.elizabeth-rogers.com/elr-utilities/js-back-to-top.html",
+  "keywords": [
+    "javascript, jquery, ui"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "dist/elr-back-to-top.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Beth3346/elr-back-to-top.git"
+  },
+  "scripts": {
+    "build": "build"
   }
 }
