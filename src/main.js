@@ -2,18 +2,18 @@
 
 const $ = require('jquery');
 
-import elrUtilities from 'elr-utility-lib';
-let elr = elrUtilities();
+import elrUI from 'elr-ui';
+let ui = elrUI();
 
 const elrBackToTop = function() {
-    const $backToTop = elr.createElement('button', {
+    const $backToTop = ui.createElement('button', {
         'class': 'back-to-top fa fa-caret-up'
     }).appendTo('body').hide();
 
-    elr.scrollToView($backToTop);
+    ui.scrollToView($backToTop);
 
     $backToTop.on('click', function() {
-        elr.toTop($('body, html'), 900);
+        ui.toTop($('body, html'), 900);
     });
 };
 
