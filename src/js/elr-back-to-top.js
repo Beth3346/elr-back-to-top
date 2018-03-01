@@ -46,7 +46,7 @@ const scrollToView = ($el, speed = 300) => {
   $(window).on('scroll', throttle(showElement, 100))
 }
 
-const toTop = ($content, speed) => {
+const toTop = function($content, speed) {
   $content.stop().animate(
     {
       scrollTop: $content.position().top
@@ -65,7 +65,7 @@ export default {
     scrollToView($button)
 
     $button.on('click', function() {
-      ui().toTop($('body, html'), 900)
+      toTop($('body, html'), 900)
     })
   }
 }
