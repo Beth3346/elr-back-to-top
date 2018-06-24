@@ -1,7 +1,5 @@
 import $ from 'jquery'
 import backToTop from '../elr-back-to-top'
-import fs from 'fs'
-import path from 'path'
 
 beforeEach(() => {
   document.body.innerHTML = '<div class="wrapper"></div>'
