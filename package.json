@@ -1,7 +1,7 @@
 {
   "name": "elr-back-to-top",
   "description": "simple back to top button",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "author": "Elizabeth Rogers",
   "bugs": {
     "url": "https://github.com/Beth3346/elr-back-to-top",
@@ -20,9 +20,10 @@
     "webpack": "^4.0.0",
     "webpack-cli": "^2.0.9"
   },
-  "homepage":
-    "http://www.elizabeth-rogers.com/elr-utilities/js-back-to-top.html",
-  "keywords": ["javascript, jquery, ui"],
+  "homepage": "http://www.elizabeth-rogers.com/elr-utilities/js-back-to-top.html",
+  "keywords": [
+    "javascript, jquery, ui"
+  ],
   "license": "MIT",
   "main": "dist/main.js",
   "repository": {
